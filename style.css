@@ -282,21 +282,17 @@ main {
   font-weight: bold;
 }
 
-/* -- Fan fiction disclaimer watermark -- */
-.journal-page::after {
-  content: "FAN FICTION — NOT AFFILIATED WITH DISNEY OR GRAVITY FALLS";
-  position: fixed;
-  bottom: 12px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: "Special Elite", "Courier New", monospace;
-  font-size: 0.65rem;
-  color: rgba(138, 106, 74, 0.45);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  white-space: nowrap;
-  pointer-events: none;
-  z-index: 100;
+/* -- Fan fiction disclaimer -- */
+.header-rule::after {
+  content: "Fan fiction — not affiliated with Disney or Gravity Falls";
+  display: block;
+  margin-top: 0.75rem;
+  font-family: "Patrick Hand", cursive;
+  font-size: 0.85rem;
+  color: #5a4a3a;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.03em;
 }
 
 /* -- Responsive -- */
